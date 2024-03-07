@@ -17,9 +17,8 @@ const TraditionalFood = () => {
                     </div>
                 </div>
             </div>
-            <div className="m-12 lg:m-32">
+            <div className="m-8 lg:m-32">
                 <p className="mt-16 text-justify font-light text-[16px] lg:text-[20px] text-[#555555]">Typical Purwokerto Banyumas food is a must try when visiting this area. Purwokerto is the capital of Banyumas Regency which has a variety of cultures and interesting destinations. This area, which is famous for its garrulous accent, has unique culinary delights that are worth trying. Typical Purwokerto Banyumas food can be found easily in every corner of the city. This typical Purwokerto Banyumas food has become an identity for Banyumas Regency.</p>
-
 
                 <div className="space-y-8 hidden lg:block lg:mt-24">
                     <div className="flex lg:w-[100%] items-start  lg:justify-between p-[30px] relative rounded-[20px] border border-solid border-[#c4c4c4]">
@@ -228,16 +227,16 @@ const TraditionalFood = () => {
 
                 </div>
 
-                <div className="flex flex-col w-[680px] items-start gap-[54px] p-[30px] relative rounded-[20px] border border-solid border-[#c4c4c4] mt-12 block lg:hidden">
+                
+                <div className="flex flex-col w-[100%] items-start gap-[54px] p-[30px] relative rounded-[20px] border border-solid border-[#c4c4c4] mt-12 block lg:hidden">
                     <div className="flex flex-col items-start gap-[35px] self-stretch w-full relative flex-[0_0_auto]">
-                        <div className="relative w-fit mt-[-1.00px] [font-family:'Cina_GEO_Test-SemiBold',Helvetica] font-semibold text-[#333333] text-[36px] tracking-[1.08px] leading-[normal] whitespace-nowrap">
+                        <div className="relative w-fit mt-[-1.00px] [font-family:'Cina_GEO_Test-SemiBold',Helvetica] font-semibold text-[#333333] text-[24px] tracking-[1.08px] leading-[normal] whitespace-nowrap">
                             Mendoan
                         </div>
-                        <img className="relative w-[100%] rounded-xl lg:w-[620px] h-[332px] object-cover" alt="Image" src="mendoan.svg" />
+                        <img className="relative w-[100%] rounded-xl lg:w-[620px] h-[150px] object-cover" alt="Image" src="mendoan.svg" />
                     </div>
-                    <img className="relative self-stretch w-full h-px object-cover" alt="Line" src="line-2.svg" />
                     <div className="flex flex-col w-[618px] items-start gap-[30px] relative flex-[0_0_auto]">
-                        <p className="relative self-stretch mt-[-1.00px] [font-family:'Cina_GEO_Test-Light',Helvetica] font-light text-[#555555] text-[16px] tracking-[0.48px] leading-[27.2px]">
+                        <p className="relative text-justify self-stretch mt-[-1.00px] [font-family:'Cina_GEO_Test-Light',Helvetica] font-light text-[#555555] text-[16px] tracking-[0.48px] leading-[27.2px] w-[40%]">
                             Mendoan (mêndoan) is a type of fried snack made from tempeh coated in flour and green onions and then cooked
                             half-cooked. The word mendoan itself comes from Javanese, namely mendo, which means half-cooked or soft.
                             Mendoan is a traditional Javanese snack typical of the former Banyumas Residency (Banyumas Raya). This snack
@@ -248,7 +247,7 @@ const TraditionalFood = () => {
                             <div className="relative w-fit mt-[-1.00px] [font-family:'Cina_GEO_Test-Medium',Helvetica] font-medium text-[#333333] text-[16px] tracking-[0.48px] leading-[normal] whitespace-nowrap">
                                 Legendary Places :
                             </div>
-                            <div className="inline-flex flex-col items-start gap-[7px] relative flex-[0_0_auto]">
+                            <div className="inline-flex flex-col items-start gap-[7px] relative flex-[0_0_auto] ">
                                 <div className="inline-flex items-end justify-center gap-[7px] relative flex-[0_0_auto]">
                                     <img
                                         className="relative w-[23px] h-[23px]"
@@ -259,7 +258,7 @@ const TraditionalFood = () => {
                                         ECO 21
                                     </div>
                                 </div>
-                                <p className="relative w-fit [font-family:'Cina_GEO_Test-Light',Helvetica] font-light text-[#555555] text-[16px] tracking-[0.48px] leading-[normal] whitespace-nowrap">
+                                <p className="relative [font-family:'Cina_GEO_Test-Light',Helvetica] font-light text-[#555555] text-[16px] tracking-[0.48px] leading-6 w-[40%]">
                                     Jalur Gumilir - Purwokerto, Sawangan, Kedungwuluh, Kec. Purwokerto Barat
                                 </p>
                             </div>
@@ -270,7 +269,7 @@ const TraditionalFood = () => {
                                         Sawangan
                                     </div>
                                 </div>
-                                <p className="relative w-fit [font-family:'Cina_GEO_Test-Light',Helvetica] font-light text-[#555555] text-[16px] tracking-[0.48px] leading-[normal] whitespace-nowrap">
+                                <p className="relative w-fit [font-family:'Cina_GEO_Test-Light',Helvetica] font-light text-[#555555] text-[16px] tracking-[0.48px] leading-6 w-[40%]">
                                     Jalur Gumilir - Purwokerto, Sawangan, Kedungwuluh, Kec. Purwokerto Barat
                                 </p>
                             </div>
@@ -285,7 +284,7 @@ const TraditionalFood = () => {
                                         Mendoan Mirasa
                                     </div>
                                 </div>
-                                <p className="relative w-fit [font-family:'Cina_GEO_Test-Light',Helvetica] font-light text-[#555555] text-[16px] tracking-[0.48px] leading-[normal] whitespace-nowrap">
+                                <p className="relative w-fit [font-family:'Cina_GEO_Test-Light',Helvetica] font-light text-[#555555] text-[16px] tracking-[0.48px] leading-6 w-[40%]">
                                     Jalur Gumilir - Purwokerto, Sawangan, Kedungwuluh, Kec. Purwokerto Barat
                                 </p>
                             </div>
