@@ -227,7 +227,7 @@ const TraditionalFood = () => {
 
                 </div>
 
-                
+
                 <div className="flex flex-col w-[100%] items-start gap-[54px] p-[30px] relative rounded-[20px] border border-solid border-[#c4c4c4] mt-12 block lg:hidden">
                     <div className="flex flex-col items-start gap-[35px] self-stretch w-full relative flex-[0_0_auto]">
                         <div className="relative w-fit mt-[-1.00px] [font-family:'Cina_GEO_Test-SemiBold',Helvetica] font-semibold text-[#333333] text-[24px] tracking-[1.08px] leading-[normal] whitespace-nowrap">
@@ -262,18 +262,23 @@ const TraditionalFood = () => {
                                     Jalur Gumilir - Purwokerto, Sawangan, Kedungwuluh, Kec. Purwokerto Barat
                                 </p>
                             </div>
-                            <div className="inline-flex flex-col items-start gap-[7px] relative flex-[0_0_auto]">
+                            <div className="inline-flex flex-col items-start gap-[7px] relative flex-[0_0_auto] ">
                                 <div className="inline-flex items-end justify-center gap-[7px] relative flex-[0_0_auto]">
-                                    <img className="relative w-[23px] h-[23px]" alt="Material symbols" src="location.svg" />
+                                    <img
+                                        className="relative w-[23px] h-[23px]"
+                                        alt="Material symbols"
+                                        src="location.svg"
+                                    />
                                     <div className="relative w-fit [font-family:'Cina_GEO_Test-Medium',Helvetica] font-medium text-[#333333] text-[16px] tracking-[0.48px] leading-[normal] whitespace-nowrap">
                                         Sawangan
                                     </div>
                                 </div>
-                                <p className="relative w-fit [font-family:'Cina_GEO_Test-Light',Helvetica] font-light text-[#555555] text-[16px] tracking-[0.48px] leading-6 w-[40%]">
+                                <p className="relative [font-family:'Cina_GEO_Test-Light',Helvetica] font-light text-[#555555] text-[16px] tracking-[0.48px] leading-6 w-[40%]">
                                     Jalur Gumilir - Purwokerto, Sawangan, Kedungwuluh, Kec. Purwokerto Barat
                                 </p>
                             </div>
-                            <div className="inline-flex flex-col items-start gap-[7px] relative flex-[0_0_auto]">
+                            
+                            <div className="inline-flex flex-col items-start gap-[7px] relative flex-[0_0_auto] ">
                                 <div className="inline-flex items-end justify-center gap-[7px] relative flex-[0_0_auto]">
                                     <img
                                         className="relative w-[23px] h-[23px]"
@@ -284,7 +289,7 @@ const TraditionalFood = () => {
                                         Mendoan Mirasa
                                     </div>
                                 </div>
-                                <p className="relative w-fit [font-family:'Cina_GEO_Test-Light',Helvetica] font-light text-[#555555] text-[16px] tracking-[0.48px] leading-6 w-[40%]">
+                                <p className="relative [font-family:'Cina_GEO_Test-Light',Helvetica] font-light text-[#555555] text-[16px] tracking-[0.48px] leading-6 w-[40%]">
                                     Jalur Gumilir - Purwokerto, Sawangan, Kedungwuluh, Kec. Purwokerto Barat
                                 </p>
                             </div>
