@@ -17,7 +17,7 @@ const Information = () => {
                     </div>
                 </div>
             </div>
-            <div className="m-12 lg:m-32">
+            <div className=" lg:m-32">
                 <Things/>
             </div>
 

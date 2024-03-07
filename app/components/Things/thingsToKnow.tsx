@@ -28,7 +28,7 @@ const Things = () => {
             </div>
 
             <Image src="/weather-dummy.svg" alt="Weather" width={1271} height={243} className="mt-24 lg:w-[100%] hidden lg:block"/>
-            <Image src="/mobile-weather.svg" alt="Weather" width={680} height={243} className="mt-12 m-8 lg:mt-24 w-[100%] lg:w-[100%] block lg:hidden"/>
+            <Image src="/mobile-weather.svg" alt="Weather" width={680} height={243} className="mt-12 m-8 lg:mt-24 w-[80%] lg:w-[100%] block lg:hidden"/>
         </>
     )
 }

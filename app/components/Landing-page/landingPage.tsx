@@ -13,7 +13,7 @@ const LandingPage = () => {
                 <div className="text-[20px] lg:text-[28px] font-normal text-white mt-4 lg:mt-12">
                     A place where culture and nature unite
                 </div>
-                <Link href='/'>
+                <Link href='/#Reason'>
                     <button className="flex items-center justify-center mx-auto mt-8 lg:mt-16 bg-white text-dark font-semibold py-3 px-12 rounded-2xl">
                         Start Explore
                     </button>

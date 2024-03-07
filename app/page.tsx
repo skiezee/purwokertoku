@@ -17,7 +17,9 @@ export default function Home() {
       <main className="flex-grow">
         <LandingPage />
         <div className="lg:m-32">
-          <Reason />
+          <div id="Reason">
+            <Reason />
+          </div>
           <Places/>
           <Kuliner/>
           <Things/>
