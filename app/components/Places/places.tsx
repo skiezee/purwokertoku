@@ -7,9 +7,12 @@ const Places = () => {
             <div className="flex flex-col mt-8 lg:mt-48 m-8 lg:m-0">
                 <div className="flex flex-row justify-between">
                     <div className="text-[32px] lg:text-5xl text-[#333333] font-semibold">Places to go</div>
-                    <button className="bg-transparent text-[14px] font-semibold lg:py-2 px-4 lg:px-8 border border-[#000000] rounded-xl lg:rounded-3xl">
-                        See all
-                    </button>
+                    <Link href="/Places">
+                        <button className="bg-transparent text-[14px] font-semibold lg:py-2 px-4 lg:px-8 border border-[#000000] rounded-xl lg:rounded-3xl">
+                            See all
+                        </button>
+                    </Link>
+
                 </div>
                 <div className="mt-4 text-[#555555] text-[18px] lg:text-xl font-normal">Explore beautiful place to refresh your soul and mind.</div>
                 <div className="mt-8 grid grid-cols-1 gap-8 lg:grid lg:grid-cols-4 lg:gap-4">
